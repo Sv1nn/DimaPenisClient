@@ -2,7 +2,7 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "DimaPenis", IntroText = "Sv1nn Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "DimaPenis", IntroText = "DimaPenis Client", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
 	Name = "DimaPenisActivate",
@@ -28,7 +28,7 @@ PlayerTab:AddButton({
     Callback = function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 80
     OrionLib:MakeNotification({
-    Name = "DimaPenis",
+    Name = "DimaPenis Client",
     Content = "SpeedhackOn",
     Image = "rbxassetid://4483345998",
     Time = 5
@@ -58,7 +58,7 @@ PlayerTab:AddButton({
             game:GetService("RunService").Heartbeat:Connect(keepLookingForward)
             
             OrionLib:MakeNotification({
-                Name = "SviinHub",
+                Name = "DimaPenis",
                 Content = "SpinbotOn",
                 Image = "rbxassetid://4483345998",
                 Time = 5
